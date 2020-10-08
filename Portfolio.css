@@ -259,7 +259,7 @@ h2 {
   display: block;
   max-width: 400px;
   margin-top: 30px auto 58px auto;
-  font: 17pxpx "Roboto", sans-serif;
+  font: 17px "Roboto", sans-serif;
   flex: 1;
 }
 
@@ -283,7 +283,7 @@ a {
 }
 
 /* DISPLAYS ON TOP OF HERO PIC AT THE MOMENT */
-.on-pic-text {
+/* .on-pic-text {
   position: absolute;
   margin: 0;
   top: 50%;
@@ -293,7 +293,7 @@ a {
   text-transform: uppercase;
   z-index: 10;
   color: #fddfe7;
-}
+} */
 
 .featured-title {
   font-weight: bold;
@@ -311,6 +311,103 @@ a {
   padding: 5px 10px;
   margin: 1px;
   background-color: #fddfe7;
+}
+
+/* OTHER PROJECTS SECTION */
+
+.other-projects {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 30px;
+}
+
+.other-projects h3 {
+  color: #fa382f;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px;
+}
+
+/* MY THOUGHTS SECTION */
+
+.my-thoughts-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  color: #fa382f;
+  text-transform: uppercase;
+}
+
+.red {
+  color: #fa382f;
+}
+
+.thoughts-card {
+  display: block;
+  max-width: 400px;
+}
+
+.thoughts-image.container {
+  width: 100%;
+  position: relative;
+}
+
+.thoughts-pic {
+  width: 100%;
+  display: block;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
+  /* filter: brightness(60%); */
+  /* margin: 15px; */
+}
+
+/* 
+MORE THOUGHTs SECTION */
+
+.more-thoughts h3 {
+  color: #fa382f;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px;
+}
+
+/* SKILLS SECTION */
+.skills-section {
+  display: flex;
+  background-color: #f4f4f4;
+}
+
+.skills-card {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.code-text,
+h4 {
+  color: #fa382f;
+  text-align: left;
+}
+
+/* FOR MORE SECTION */
+
+.for-more-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.btn-red {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 3px solid red;
+  padding: 10px;
+  margin: 3px;
 }
 
 /*FOOTER*/
