@@ -1,0 +1,9 @@
+html 4 script prep PortfolKopia: 
+
+<div class="featured-projects" id="featuredProjects">
+        <p id="projectTitle"></p>
+        <p id="projectDescription"></p>
+        <img id="projectImage"></p>
+      </div>
+      <div class="other-projects"></div>
+      <div class="my-thoughts"></div>

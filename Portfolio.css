@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+/*HERO SECTION*/
+header {
+  padding: 0px 40px 0 px 40px;
+  position: relative;
+  height: 400px;
+  /* background-image: url(./images/HeroPic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  filter: brightness(80%);
+  filter: saturate (2); */
+}
+
+/* .top-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100; */
+/* overflow: hidden; */
+/* } */
+picture {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  /* top: 0;
+  left: 0; */
+  z-index: -5;
+  object-fit: cover;
+  /* background-repeat: no-repeat;
+  position: relative; */
+  filter: brightness(80%);
+  filter: saturate (2);
+}
+
+.header-content-container {
+  padding-top: 50px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* top: 0;
+  left: 0; */
+  /* position: relative; */
+  overflow: visible;
+}
+
+.icon-container {
+  /* height: 100px;
+  width: auto; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .icons-container {
+  display: inline-flex;
+  position: absolute;
+  margin-top: 30px;
+  margin-right: 40px;
+  padding-right: 60px;
+} */
+
+.btn {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 10px;
+  margin: 3px;
+}
+
+.header-text-box {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: -20px;
+  margin-left: 10px;
+  color: white;
+  padding: 30px;
+}
+
+h6 {
+  /* font: 13px/15px "Roboto", sans-serif; */
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+h6 span {
+  margin-left: 20px;
+  /* font-weight: bold; */
+}
+
+.title-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+.title-text2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+.header-sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  position: absolute;
+  text-align: center;
+  top: 68%;
+  /* z-index: 10; */
+  color: white;
+}
+
+.profile-picture {
+  width: 162px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 62%;
+  left: 58%;
+  /* z-index: 25; */
+}
+
+/*Summary section*/
+
+.summary-section {
+  font: 17px/29px "Montserrat", sans-serif;
+  text-align: left;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 58px 36px 40px 36px;
+  background-color: #f4f4f4;
+}
+
+.summary-text {
+  max-width: 550px;
+  margin: auto;
+}
+
+.graphics {
+  width: 60px;
+  height: 29px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+}
+
+.line {
+  width: 45pxpx;
+  height: 3px;
+  background: red;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  margin-left: -3px;
+}
+
+/*TECH SECTION*/
+/* 
+.tech-section {
+  padding: 58px, 36px 40px 36px;
+  font-family: "Montserrat", sans-serif;
+  /* padding-top: 125px;
+  padding-bottom: 125px; */
+
+.tech-container {
+  text-align: center;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: "Roboto", sans-serif;
+}
+
+article {
+  max-width: 550px;
+  margin: auto;
+}
+
+h2 {
+  padding: 3px 8px;
+  width: max-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 auto 35px auto;
+  text-align: center;
+  background-color: #fa382f;
+  color: white;
+}
+
+.tech-text {
+  width: 300px;
+  height: auto;
+  padding: 15px 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/*FEATURED PROJECTS*/
+
+.featured-projects {
+  /* width: 300px;
+  height: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 58px 36px 40px 36px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0px;
+  background-color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* NOT USEFUL BECAUSE FEAT PROJ IS PARENT */
+/* .project-card-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.project-card {
+  display: block;
+  max-width: 400px;
+  margin-top: 30px auto 58px auto;
+  font: 17pxpx "Roboto", sans-serif;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.card-image.container {
+  width: 100%;
+  position: relative;
+}
+
+.card-image-container img {
+  width: 100%;
+  display: block;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
+  filter: brightness(60%);
+  /* margin: 15px; */
+}
+
+/* DISPLAYS ON TOP OF HERO PIC AT THE MOMENT */
+.on-pic-text {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 10;
+  color: #fddfe7;
+}
+
+.featured-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fa382f;
+}
+
+.featured-tags {
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+
+.featured-tags p {
+  display: inline;
+  padding: 5px 10px;
+  margin: 1px;
+  background-color: #fddfe7;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #072bce;
+  /* margin: 20px 0px;
+  line-height: 1.6;
+  padding: 20px; */
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+footer h3 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 5px auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+/* Media Queries */
+
+@media screen and (min-width: 900px) {
+  header,
+  .tech-section {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+  }
+}
