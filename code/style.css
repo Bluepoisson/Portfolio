@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -259,7 +259,8 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: left;
+  align-items: center;
+  /* text-align: left; */
   padding: 15px 36px;
   font-size: 17px;
   font-weight: normal;
@@ -271,36 +272,12 @@ article {
   max-width: 400px;
   height: auto;
   display: block;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   text-align: left;
   padding: 15px 36px;
   font-size: 17px;
   line-height: 1.6;
   margin: 20px 0;
 }
-
-/* .project-card {
-  display: block;
-  max-width: 400px;
-  margin-top: 30px auto 58px auto;
-  font: 17px "Roboto", sans-serif;
-  flex: 1;
-  text-align: left;
-} */
-
-/* a {
-  text-decoration: none;
-  color: #000000;
-} */
-
-/* .card-image.container {
-  width: 100%;
-  height: 180px;
-  position: relative;
-} */
 
 .card-image-container img {
   width: 100%;
@@ -342,9 +319,6 @@ article {
   padding: 30px;
 }
 
-/* .other-projects p {
-  font: normal normal normal 17px/29px "Roboto";
-} */
 /* MY THOUGHTS SECTION */
 
 .my-thoughts-section {
@@ -363,11 +337,6 @@ article {
 .red {
   color: #fa382f;
 }
-
-/* .thoughts-card {
-  display: block;
-  max-width: 400px;
-} */
 
 .thoughts-image.container {
   width: 100%;
@@ -399,16 +368,6 @@ MORE THOUGHTs SECTION */
   text-align: center;
   padding: 30px;
 }
-
-/* .thoughts-card-container {
-  max-width: 400px;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  height: auto;
-} */
 
 /* SKILLS SECTION */
 
@@ -496,8 +455,8 @@ ul {
 }
 
 .more-icon img {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   padding: 10px;
 }
 
@@ -545,7 +504,7 @@ footer p {
   }
 }
 
-@media screen and (min-width: 650) {
+@media only screen and (min-width: 650) {
   /* .header-content-container {
     height: 400px;
   } */
@@ -565,7 +524,7 @@ footer p {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) {
   header,
   .tech-section {
     padding-left: 10%;

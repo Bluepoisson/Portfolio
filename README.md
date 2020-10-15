@@ -11,3 +11,5 @@ Abandonned the idea to focus on the html and csss.
 
 I struggle with time management and structure.
 Work in progress.
+
+tested in Wave
